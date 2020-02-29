@@ -13,17 +13,18 @@ struct SysList: View {
     
     var body: some View {
         List {
-            Section(header: Text("header")) {
-                ForEach(rows,id: \.self) {
-                    TextRow(text: $0)
-                }
+            ForEach(rows,id: \.self) {
+                TextRow(text: $0)
+            }.onDelete { (index) in
+                self.rows.remove(atOffsets: index)
             }
-            Section(header: Text("header2")) {
-                ForEach(rows,id: \.self) {
-                    TextRow(text: $0)
-                }
-            }
-        }.listStyle(GroupedListStyle())
+        }.navigationBarItems(trailing: rightAddNav)
+    }
+    
+    var rightAddNav:some View {
+          Button(action: { self.rows.append("add Text") }) {
+              Image(systemName: "minus")
+          }
     }
 }
 
