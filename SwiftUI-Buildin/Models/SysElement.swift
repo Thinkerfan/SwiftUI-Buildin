@@ -8,5 +8,5 @@
 import SwiftUI
 struct SysElement{
     let name:String
-    let view:String
+    let view:Any
 }

@@ -9,13 +9,6 @@
 import SwiftUI
 
 struct ElementListView: View {
-        
-    //修改导航栏文字颜色
-     init() {
-           UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.systemRed]
-           UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.systemRed]
-           UINavigationBar.appearance().tintColor = .systemRed
-       }
     
     var body: some View {
         
@@ -29,6 +22,11 @@ struct ElementListView: View {
                 NavigationLink(destination:SysNavigationView()){
                     VStack(alignment: .leading){
                         Text("NavigationView")
+                    }
+                }
+                NavigationLink(destination:SysList()){
+                    VStack(alignment: .leading){
+                        Text("List")
                     }
                 }
             }.navigationBarTitle("SwiftUI自带组件用法", displayMode: .inline)
