@@ -23,8 +23,7 @@ struct SysList: View {
                     TextRow(text: $0)
                 }
             }
-        }
-        
+        }.listStyle(GroupedListStyle())
     }
 }
 
