@@ -18,6 +18,7 @@
 		05F17F8D24091E6500E55796 /* SysNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F8C24091E6500E55796 /* SysNavigationView.swift */; };
 		05F17F90240A3F5500E55796 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F8F240A3F5500E55796 /* HomeView.swift */; };
 		05F17F92240A63DC00E55796 /* SysList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F91240A63DC00E55796 /* SysList.swift */; };
+		05F17F94240A670100E55796 /* TextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F93240A670100E55796 /* TextRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		05F17F8E240A3BB200E55796 /* SwiftUI-Buildin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Buildin.entitlements"; sourceTree = "<group>"; };
 		05F17F8F240A3F5500E55796 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		05F17F91240A63DC00E55796 /* SysList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysList.swift; sourceTree = "<group>"; };
+		05F17F93240A670100E55796 /* TextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				05F17F8C24091E6500E55796 /* SysNavigationView.swift */,
 				05F17F862407D01300E55796 /* SysTableView.swift */,
 				05F17F91240A63DC00E55796 /* SysList.swift */,
+				05F17F93240A670100E55796 /* TextRow.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				05F17F8B2407D15C00E55796 /* SysElement.swift in Sources */,
 				05F17F90240A3F5500E55796 /* HomeView.swift in Sources */,
+				05F17F94240A670100E55796 /* TextRow.swift in Sources */,
 				05F17F712407C92C00E55796 /* AppDelegate.swift in Sources */,
 				05F17F92240A63DC00E55796 /* SysList.swift in Sources */,
 				05F17F8D24091E6500E55796 /* SysNavigationView.swift in Sources */,

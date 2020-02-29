@@ -13,17 +13,15 @@ struct SysList: View {
     var body: some View {
         List {
             Section(header: Text("header")) {
-                Text("text")
-                Text("text")
-                Text("text")
+                TextRow(text: "text")
+                TextRow(text: "text")
             }
             Section(header: Text("header2")) {
-                  Text("text")
-                  Text("text")
-                  Text("text")
+                TextRow(text: "text")
+                TextRow(text: "text")
             }
-            }.listStyle(GroupedListStyle())
-
+        }.listStyle(GroupedListStyle())
+        
     }
 }
 
