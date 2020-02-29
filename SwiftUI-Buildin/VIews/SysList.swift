@@ -9,21 +9,22 @@
 import SwiftUI
 
 struct SysList: View {
+    @State private var rows = ["text","row"]
     
     var body: some View {
         List {
             Section(header: Text("header")) {
-                Text("text")
-                Text("text")
-                Text("text")
+                ForEach(rows,id: \.self) {
+                    TextRow(text: $0)
+                }
             }
             Section(header: Text("header2")) {
-                  Text("text")
-                  Text("text")
-                  Text("text")
+                ForEach(rows,id: \.self) {
+                    TextRow(text: $0)
+                }
             }
-            }.listStyle(GroupedListStyle())
-
+        }
+        
     }
 }
 
