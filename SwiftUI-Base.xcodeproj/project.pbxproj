@@ -22,7 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05F17F6D2407C92C00E55796 /* SwiftUI-Buildin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Buildin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0560307A24235DE00010D51A /* SwiftUI-Base.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Base.entitlements"; sourceTree = "<group>"; };
+		05F17F6D2407C92C00E55796 /* SwiftUI大全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI大全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F17F702407C92C00E55796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F17F722407C92C00E55796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05F17F742407C92C00E55796 /* ElementListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementListView.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		05F17F862407D01300E55796 /* SysTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysTableView.swift; sourceTree = "<group>"; };
 		05F17F8A2407D15C00E55796 /* SysElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysElement.swift; sourceTree = "<group>"; };
 		05F17F8C24091E6500E55796 /* SysNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysNavigationView.swift; sourceTree = "<group>"; };
-		05F17F8E240A3BB200E55796 /* SwiftUI-Buildin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Buildin.entitlements"; sourceTree = "<group>"; };
 		05F17F8F240A3F5500E55796 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		05F17F91240A63DC00E55796 /* SysList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysList.swift; sourceTree = "<group>"; };
 		05F17F93240A670100E55796 /* TextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRow.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		05F17F642407C92C00E55796 = {
 			isa = PBXGroup;
 			children = (
-				05F17F6F2407C92C00E55796 /* SwiftUI-Buildin */,
+				05F17F6F2407C92C00E55796 /* SwiftUI-Base */,
 				05F17F6E2407C92C00E55796 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,15 +61,15 @@
 		05F17F6E2407C92C00E55796 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05F17F6D2407C92C00E55796 /* SwiftUI-Buildin.app */,
+				05F17F6D2407C92C00E55796 /* SwiftUI大全.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05F17F6F2407C92C00E55796 /* SwiftUI-Buildin */ = {
+		05F17F6F2407C92C00E55796 /* SwiftUI-Base */ = {
 			isa = PBXGroup;
 			children = (
-				05F17F8E240A3BB200E55796 /* SwiftUI-Buildin.entitlements */,
+				0560307A24235DE00010D51A /* SwiftUI-Base.entitlements */,
 				05F17F892407D10E00E55796 /* Models */,
 				05F17F882407D01B00E55796 /* VIews */,
 				05F17F702407C92C00E55796 /* AppDelegate.swift */,
@@ -81,7 +81,7 @@
 				05F17F782407C92E00E55796 /* Preview Content */,
 				05F17F8F240A3F5500E55796 /* HomeView.swift */,
 			);
-			path = "SwiftUI-Buildin";
+			path = "SwiftUI-Base";
 			sourceTree = "<group>";
 		};
 		05F17F782407C92E00E55796 /* Preview Content */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05F17F6C2407C92C00E55796 /* SwiftUI-Buildin */ = {
+		05F17F6C2407C92C00E55796 /* SwiftUI-Base */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05F17F812407C92E00E55796 /* Build configuration list for PBXNativeTarget "SwiftUI-Buildin" */;
+			buildConfigurationList = 05F17F812407C92E00E55796 /* Build configuration list for PBXNativeTarget "SwiftUI-Base" */;
 			buildPhases = (
 				05F17F692407C92C00E55796 /* Sources */,
 				05F17F6A2407C92C00E55796 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-Buildin";
+			name = "SwiftUI-Base";
 			productName = "SwiftUI-Buildin";
-			productReference = 05F17F6D2407C92C00E55796 /* SwiftUI-Buildin.app */;
+			productReference = 05F17F6D2407C92C00E55796 /* SwiftUI大全.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05F17F682407C92C00E55796 /* Build configuration list for PBXProject "SwiftUI-Buildin" */;
+			buildConfigurationList = 05F17F682407C92C00E55796 /* Build configuration list for PBXProject "SwiftUI-Base" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05F17F6C2407C92C00E55796 /* SwiftUI-Buildin */,
+				05F17F6C2407C92C00E55796 /* SwiftUI-Base */,
 			);
 		};
 /* End PBXProject section */
@@ -326,20 +326,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Buildin/SwiftUI-Buildin.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Buildin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Buildin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Base/Preview Content\"";
 				DEVELOPMENT_TEAM = 8K435P9DJ8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-Buildin/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUI-Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swift.ui.SwiftUI-Buildin";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.ui.SwiftUI-Base";
+				PRODUCT_NAME = "SwiftUI大全";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,20 +350,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Buildin/SwiftUI-Buildin.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Buildin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Buildin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Base/Preview Content\"";
 				DEVELOPMENT_TEAM = 8K435P9DJ8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-Buildin/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUI-Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swift.ui.SwiftUI-Buildin";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.ui.SwiftUI-Base";
+				PRODUCT_NAME = "SwiftUI大全";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05F17F682407C92C00E55796 /* Build configuration list for PBXProject "SwiftUI-Buildin" */ = {
+		05F17F682407C92C00E55796 /* Build configuration list for PBXProject "SwiftUI-Base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05F17F7F2407C92E00E55796 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05F17F812407C92E00E55796 /* Build configuration list for PBXNativeTarget "SwiftUI-Buildin" */ = {
+		05F17F812407C92E00E55796 /* Build configuration list for PBXNativeTarget "SwiftUI-Base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05F17F822407C92E00E55796 /* Debug */,
