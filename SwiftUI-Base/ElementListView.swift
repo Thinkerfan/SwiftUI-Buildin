@@ -10,6 +10,10 @@ import SwiftUI
 
 struct ElementListView: View {
     
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
         
         NavigationView(){

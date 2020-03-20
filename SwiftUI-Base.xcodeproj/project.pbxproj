@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0560307C242364D30010D51A /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560307B242364D30010D51A /* Tab1.swift */; };
+		0560307F242373A00010D51A /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560307D242373A00010D51A /* Tab2.swift */; };
+		05603080242373A00010D51A /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560307E242373A00010D51A /* Tab3.swift */; };
+		05603082242375590010D51A /* Nav_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05603081242375590010D51A /* Nav_Tab.swift */; };
 		05F17F712407C92C00E55796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F702407C92C00E55796 /* AppDelegate.swift */; };
 		05F17F732407C92C00E55796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F722407C92C00E55796 /* SceneDelegate.swift */; };
 		05F17F752407C92C00E55796 /* ElementListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F17F742407C92C00E55796 /* ElementListView.swift */; };
@@ -23,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		0560307A24235DE00010D51A /* SwiftUI-Base.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Base.entitlements"; sourceTree = "<group>"; };
+		0560307B242364D30010D51A /* Tab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1.swift; sourceTree = "<group>"; };
+		0560307D242373A00010D51A /* Tab2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2.swift; sourceTree = "<group>"; };
+		0560307E242373A00010D51A /* Tab3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3.swift; sourceTree = "<group>"; };
+		05603081242375590010D51A /* Nav_Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav_Tab.swift; sourceTree = "<group>"; };
 		05F17F6D2407C92C00E55796 /* SwiftUI大全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI大全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F17F702407C92C00E55796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F17F722407C92C00E55796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05603083242379670010D51A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				05F17F702407C92C00E55796 /* AppDelegate.swift */,
+				05F17F722407C92C00E55796 /* SceneDelegate.swift */,
+				05F17F8F240A3F5500E55796 /* HomeView.swift */,
+				0560307B242364D30010D51A /* Tab1.swift */,
+				0560307D242373A00010D51A /* Tab2.swift */,
+				0560307E242373A00010D51A /* Tab3.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		05F17F642407C92C00E55796 = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +92,13 @@
 			children = (
 				0560307A24235DE00010D51A /* SwiftUI-Base.entitlements */,
 				05F17F892407D10E00E55796 /* Models */,
+				05603083242379670010D51A /* Main */,
 				05F17F882407D01B00E55796 /* VIews */,
-				05F17F702407C92C00E55796 /* AppDelegate.swift */,
-				05F17F722407C92C00E55796 /* SceneDelegate.swift */,
 				05F17F742407C92C00E55796 /* ElementListView.swift */,
 				05F17F762407C92E00E55796 /* Assets.xcassets */,
 				05F17F7B2407C92E00E55796 /* LaunchScreen.storyboard */,
 				05F17F7E2407C92E00E55796 /* Info.plist */,
 				05F17F782407C92E00E55796 /* Preview Content */,
-				05F17F8F240A3F5500E55796 /* HomeView.swift */,
 			);
 			path = "SwiftUI-Base";
 			sourceTree = "<group>";
@@ -99,6 +118,7 @@
 				05F17F862407D01300E55796 /* SysTableView.swift */,
 				05F17F91240A63DC00E55796 /* SysList.swift */,
 				05F17F93240A670100E55796 /* TextRow.swift */,
+				05603081242375590010D51A /* Nav_Tab.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -187,10 +207,14 @@
 				05F17F94240A670100E55796 /* TextRow.swift in Sources */,
 				05F17F712407C92C00E55796 /* AppDelegate.swift in Sources */,
 				05F17F92240A63DC00E55796 /* SysList.swift in Sources */,
+				0560307F242373A00010D51A /* Tab2.swift in Sources */,
+				0560307C242364D30010D51A /* Tab1.swift in Sources */,
 				05F17F8D24091E6500E55796 /* SysNavigationView.swift in Sources */,
 				05F17F732407C92C00E55796 /* SceneDelegate.swift in Sources */,
 				05F17F752407C92C00E55796 /* ElementListView.swift in Sources */,
 				05F17F872407D01300E55796 /* SysTableView.swift in Sources */,
+				05603082242375590010D51A /* Nav_Tab.swift in Sources */,
+				05603080242373A00010D51A /* Tab3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Buildin.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Base.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Base/Preview Content\"";
@@ -350,7 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Buildin.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Base/SwiftUI-Base.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Base/Preview Content\"";
