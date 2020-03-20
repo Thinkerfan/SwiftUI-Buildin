@@ -10,41 +10,82 @@ import SwiftUI
 
 struct Tab1: View {
     
-    var views:some View = SysTableView()
-    
     var body: some View {
         List{
-            
-            Section(header: Text("常用基础控件")) {
-                NavigationLink(destination:views){
+            Section(header: Text("Text文本相关组件")) {
+                NavigationLink(destination:SysText()){
                     Text("Text")
                 }
-                NavigationLink(destination:SysNavigationView()){
-                    Text("Button")
-                }
-                NavigationLink(destination:SysNavigationView()){
-                    Text("Image")
-                }
-                NavigationLink(destination:SysNavigationView()){
+                NavigationLink(destination:SysTextField()){
                     Text("TextField")
+                }
+                NavigationLink(destination:SysSecureField()){
+                    Text("SecureField")
+                }
+                NavigationLink(destination:SysFont()){
+                    Text("Font")
                 }
             }
             
-            Section(header: Text("常用容器控件")) {
+            Section(header: Text("Image图片相关组件")) {
+                NavigationLink(destination:SysImage()){
+                    Text("Image")
+                }
+            }
+            
+            Section(header: Text("Button按钮相关组件")) {
+                NavigationLink(destination:SysButton()){
+                    Text("Button")
+                }
+                NavigationLink(destination:SysNavigationLink()){
+                              Text("NavigationLink")
+                          }
+                NavigationLink(destination:SysMenuButton()){
+                    Text("MenuButton")
+                }
+                NavigationLink(destination:SysEditButton()){
+                    Text("EditButton")
+                }
+                NavigationLink(destination:SysPasteButton()){
+                    Text("PasteButton")
+                }
+            }
+            
+            Section(header: Text("Selector值选择相关组件")) {
+                  NavigationLink(destination:SysToggle()){
+                      Text("Toggle")
+                  }
+                  NavigationLink(destination:SysPicker()){
+                                Text("Picker")
+                            }
+                  NavigationLink(destination:SysDatePicker()){
+                      Text("DatePicker")
+                  }
+                  NavigationLink(destination:SysSlider()){
+                      Text("Slider")
+                  }
+                  NavigationLink(destination:SysStepper()){
+                      Text("Stepper")
+                  }
+              }
+            
+            Section(header: Text("常用容器组件")) {
                 NavigationLink(destination:SysTableView()){
                     Text("TableView")
                 }
                 NavigationLink(destination:SysNavigationView()){
-                    VStack(alignment: .leading){
-                        Text("NavigationView")
-                    }
+                    Text("NavigationView")
                 }
                 NavigationLink(destination:SysList()){
-                    VStack(alignment: .leading){
-                        Text("List")
-                    }
+                    Text("List")
                 }
             }
+        }
+    }
+    
+    func rowView(dest:String,text:String) -> some View{
+        return NavigationLink(destination:Text("denm")){
+            Text(text)
         }
     }
 }
